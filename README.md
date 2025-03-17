@@ -27,7 +27,7 @@ Cada personaje tiene una **predominancia elemental** que influye en la batalla:
 Este juego fue desarrollado utilizando:  
 - **HTML5** 🎨 para la estructura  
 - **CSS3** 🎭 para los estilos  
-- **JavaScript** ⚡ para la lógica del juego  
+- **JavaScript y NodeJS** ⚡ para la lógica del juego  
 
 ## 🚀 Cómo Jugar  
 1. Selecciona tu personaje entre **Tutipollo, Rudeflora o Aleatron**  
