@@ -1,9 +1,9 @@
-# 🔥💧🌿 Elemental Clash - Un Piedra, Papel o Tijera Evolucionado
+# Element! - Un Piedra, Papel o Tijera Evolucionado
 
-![Elemental Clash](ELEMENT!-Combate.png)
+![Element!-Titulo](Element!.png)
 
 ## 🎮 Descripción  
-**Elemental Clash** es un juego tipo **Piedra, Papel o Tijera**, pero con una mecánica ampliada basada en **tres tipos elementales**: **Fuego, Agua y Planta**. Cada jugador elige un personaje con un tipo predominante, lo que afecta el daño y las resistencias en el combate.  
+**Element!** es un juego tipo **Piedra, Papel o Tijera**, pero con una mecánica ampliada basada en **tres tipos elementales**: **Fuego, Agua y Planta**. Cada jugador elige un personaje con un tipo predominante, lo que afecta el daño y las resistencias en el combate.  
 
 ## 🔥🌿💧 Tipos Elementales y Mecánicas  
 Cada personaje tiene una **predominancia elemental** que influye en la batalla:  
@@ -36,15 +36,17 @@ Este juego fue desarrollado utilizando:
 4. ¡Gana el mejor estratega!  
 
 ## 📸 Capturas de Pantalla  
-![Gameplay](gameplay.png)  
+
+### Combate
+![Gameplay](ELEMENT!-Combate.png)  
+
+### Modo libre
+![Gameplay](ELEMENT!-Freeroam.png)  
+
+### Personajes
+![Gameplay](ELEMENT!-Personajes.png)  
 
 ## 📥 Instalación y Uso  
 1. Descarga el repositorio  
 2. Abre `index.html` en tu navegador  
 3. ¡Disfruta el juego!  
-
-## 🤝 Contribuciones  
-Si tienes ideas para mejorar **Elemental Clash**, ¡cualquier contribución es bienvenida!  
-
-## 📜 Licencia  
-Este proyecto está bajo la **MIT License**.  
