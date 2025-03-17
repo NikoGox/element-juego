@@ -1,6 +1,6 @@
 # 🔥💧🌿 Elemental Clash - Un Piedra, Papel o Tijera Evolucionado
 
-![Elemental Clash](ELEMENT! - Combate.png)
+![Elemental Clash](ELEMENT!-Combate.png)
 
 ## 🎮 Descripción  
 **Elemental Clash** es un juego tipo **Piedra, Papel o Tijera**, pero con una mecánica ampliada basada en **tres tipos elementales**: **Fuego, Agua y Planta**. Cada jugador elige un personaje con un tipo predominante, lo que afecta el daño y las resistencias en el combate.  
