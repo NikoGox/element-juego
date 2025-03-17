@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>ELEMENT!</title>
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="fondo">
+
+    <Section id="seleccionar-elemental">
+    <h1 class="iconos"><span class="iconofuego">🔥</span> 💧  🌿</h1>
+    <h1 class="titulo"> Element!</h1>
+
+        <h2 class="elige-elemental">Elige a tu elemental:</h2>
+
+        <div id="contenedor-tarjetas" class="elementales">
+            
+        </div>
+
+        <h4 class="seleccionar">
+         <button id="boton-elemental">Seleccionar</button>   
+        </h4>
+
+    </Section>
+
+    <section id="ver-mapa">
+        <h2 class="elige-elemental"> Element freeroam!</h2>
+        <canvas id="mapa"></canvas>
+        <Div class="BotonU">
+            <button 
+            ontouchend='detenerMovimiento()'
+            ontouchstart="moverU()"
+            onmouseup='detenerMovimiento()'
+            onmousedown="moverU()"
+            >⬆️</button>
+        </Div>
+        <Div class="BotonesX">
+            <button
+            ontouchend='detenerMovimiento()'
+            ontouchstart="moverL()"
+            onmouseup='detenerMovimiento()'
+            onmousedown="moverL()"
+            >⬅️</button>
+            <button
+            ontouchend='detenerMovimiento()'
+            ontouchstart="moverR()"
+            onmouseup='detenerMovimiento()'
+            onmousedown="moverR()"
+            >➡️</button>
+        </Div>
+        <Div class="BotonD">
+            <button
+            ontouchend='detenerMovimiento()'
+            ontouchstart="moverD()"
+            onmouseup='detenerMovimiento()'
+            onmousedown="moverD()"
+            >⬇️</button>
+        </Div>
+    </section>
+
+    <Section id="seleccionar-ataque">
+        <h1 class="iconos">🔥  💧  🌿</h1>
+        <h1 class="titulo"> Element!</h1>
+
+        <div class="stats">
+            <div class="statsJugador">
+                <p id="jugador">Jugador</p>
+                <p id="elemental-jugador"></p>
+                <p id="vidas-jugador">0</p>
+                <p id="ataque-jugador"></p>
+            </div>
+        
+            <div id="mensajes">
+                <p id="resultado">Ataca al Enemigo</p>
+                <section id ="reiniciar">
+                    <button id="boton-reiniciar">Reiniciar</button>
+                </section>
+            </div>
+
+            <div class="statsEnemigo">
+                <p id="enemigo">Enemigo</p>
+                <p id="elemental-enemigo"></p>
+                <p id="vidas-enemigo">0</p>
+                <p id="ataque-enemigo"></p>
+            </div>
+        </div>
+    
+
+        <h2 class="elegirAtaque">Elige tu ataque:</h2>
+            <div id="contenedorAtaques" class="tipoAtaque">
+              
+            </div>
+        </div>
+
+    </Section>
+    <script src="./js/element.js"></script>
+</body>
+</html>

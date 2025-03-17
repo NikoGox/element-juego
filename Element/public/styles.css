@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Comfortaa:wght@300&display=swap');
+body {
+    font-family: 'Concert One', cursive;
+}
+.iconos {
+    font-size: smaller; 
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.titulo {    
+    margin-top: 0px;
+    color: #000000;
+    width: 245px;
+    height: 80px;
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display: flex;
+    border: solid;
+    border-radius: 10px;
+    border-color: #495464;
+    box-sizing: border-box;
+
+}
+.elige-elemental {
+    color: #000000;
+    width: 250px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+}
+#seleccionar-elemental {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.elementales{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+    width: 800px;
+}
+.TutipolloC{
+    width: 200px;
+    background: #FBF7F0;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 5px #555555;
+    border-style: double;
+    font-size: smaller;
+    border-radius: 20px;
+    box-shadow: -1.7px 1.5px rgb(0 0 0);
+    font-family: 'carter one', cursive;
+    font-weight: normal;
+    color: #555555;
+    display: flex;
+}
+.TutipolloC:hover{
+    background-color: #CDC9C3;
+    border:5px #555555;
+    border-style: double;
+    box-shadow: 0px 0px rgb(0 0 0);
+    color: #ffe9d0
+}
+.TutipolloC img {
+    width: 100px;
+    display: flex;
+    padding: 5px;
+}
+.TutipolloC p {
+    margin: 0%;
+    margin-bottom: 10px;
+}
+.AleatronC{
+    width: 200px;
+    background: rgb(46, 137, 255);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 5px rgb(0, 27, 122);
+    border-style: double;
+    font-size: smaller;
+    border-radius: 20px;
+    box-shadow: -1.7px 1.5px rgb(0 0 0);
+    font-family: 'carter one', cursive;
+    font-weight: normal;
+    color: aliceblue;
+    display: flex;
+}
+.AleatronC img {
+    width: 100px;
+    display: flex;
+    padding: 5px;
+}
+.AleatronC p {
+    margin: 0%;
+    margin-bottom: 10px;
+}
+.AleatronC:hover{
+    background-color: rgb(83, 155, 248);
+    border:5px rgb(132, 142, 175);
+    border-style: double;
+    box-shadow: 0px 0px rgb(0 0 0);
+    color:rgb(214, 233, 255)
+}
+.RudefloraC{
+    width: 200px;
+    background: rgb(34, 151, 83);
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 5px #00503b;
+    border-style: double;
+    font-size: smaller;
+    border-radius: 20px;
+    box-shadow: -1.7px 1.5px rgb(0 0 0);
+    font-family: 'carter one', cursive;
+    font-weight: normal;
+    color: aliceblue;
+    display: flex;
+}
+.RudefloraC img {
+    width: 100px;
+    display: flex;
+    padding: 5px;
+}
+.RudefloraC p {
+    margin: 0%;
+    margin-bottom: 10px;
+}
+.RudefloraC:hover{
+    background-color: #a0c97f;
+    border:5px rgb(110, 184, 122);
+    border-style: double;
+    box-shadow: 0px 0px rgb(0 0 0);
+    color: #d3f8d2
+}
+#boton-elemental{
+    
+        font-family: 'Comfortaa';
+        width: 150px;
+        height: 60px;
+        border-radius: 19px;
+        background: #d4d4d496;
+        color: #000000;
+        border-color: #949494;
+        font-weight: bold;
+        font-size: larger;
+    
+}
+#boton-elemental:hover {
+    background: #d4d4d4;
+    color: #949494;
+}
+#elemental-jugador {
+    margin: unset
+}
+#elemental-enemigo {
+    margin: unset
+}
+#vidas-enemigo {
+    margin:4px
+}
+#vidas-jugador {
+    margin:4px
+}
+#titulo2 {
+    display: flex;
+    flex-direction: column;    
+}
+#seleccionar-ataque{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.elegirAtaque {
+    color: #000000;
+    width: 197px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #495464;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+    font-family: 'Comfortaa', cursive;
+    display: flex;
+    flex-direction: column;
+}
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stats {
+    grid-template-columns: 100px 100px;
+    display: flex;
+}
+.statsJugador, .statsEnemigo {
+    background: #f4f4f2;
+    margin: 0px 20px 0px 20px;
+    width: 160px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    border-radius: 10px;
+    border-color: #495464;
+    font-family: unset;
+}
+.tipoAtaque {
+    display: flex;
+}
+.ataque-fuego {
+    background-color: #dfdfdf9f;
+    border-color: #3F4E4F;
+    width: 120px;
+    height: 60px;
+    border-radius: 7px;
+    border-width: 3px;
+    font-family: unset;
+    font-size: larger;
+    margin: 0px 4px 0px 4px
+}
+.ataque-fuego:hover {
+    background-color: #606060b1;
+    box-shadow: 0px 0px rgb(0 0 0);
+    color: #ffdbb1
+}
+.ataque-agua {
+    background-color: #dfdfdf9f;
+    border-color: #013c8a;
+    width: 120px;
+    height: 60px;
+    border-radius: 7px;
+    border-width: 3px;
+    font-family: unset;
+    font-size: larger;
+    margin: 0px 4px 0px 4px
+
+}
+.ataque-agua:hover {
+    background-color: #00579e79;
+    box-shadow: 0px 0px rgb(0 0 0);
+    color: #b1e2ff
+}
+.ataque-planta {
+    background-color: #dfdfdf9f;
+    border-color: #15b800;
+    width: 120px;
+    height: 60px;
+    border-radius: 7px;
+    border-width: 3px;
+    font-family: unset;
+    font-size: larger;
+    margin: 0px 4px 0px 4px
+
+}
+.ataque-planta:hover {
+    background-color: #0f790179;
+    box-shadow: 0px 0px rgb(0 0 0);
+    color: #baffb1
+}
+#mensajes {
+    margin-top: 105px;
+    background: #f1efe9;
+    padding: 7px;
+    width: 320px;
+    height: 100px;
+    border: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #3F4E4F;
+    font-family: 'Franklin Gothic Medium';
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#enemigo {
+    margin: 5px;
+    background-color: #e8e8e8;
+    border: solid;
+    border-radius: 10px;
+    border-color: #dba6ad;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+}
+#jugador {
+    margin: 5px;
+    background-color: #e8e8e8;
+    border: solid;
+    border-radius: 10px;
+    border-color: #a6b6db;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+}
+#ataque-jugador, #ataque-enemigo {
+    margin: 0px;
+}
+input{
+    display:none
+}
+#Tutipollo:checked + label {
+    border-style: solid;
+    border-color: #ff6450;
+    box-shadow: none;
+}
+#Aleatron:checked + label {
+    border-style: solid;
+    border-color:  #44abff;
+    box-shadow: none;
+}
+#Rudeflora:checked + label {
+    border-style: solid;
+    box-shadow: none;
+    border-color: #51d65c;
+}
+.fondo{
+    background-image: url('https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/204364595/original/86db6005cd51b4f60e71cca277f603a82cf5646a/draw-a-pixel-pokemon-battle-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+    
+}
+#ver-mapa {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#ver-mapa button {
+    font-family: 'Comfortaa';
+        width: 150px;
+        height: 60px;
+        border-radius: 19px;
+        background: #d4d4d496;
+        color: #000000;
+        border-color: #949494;
+        font-weight: bold;
+        font-size: larger;
+    
+}
+#mapa {
+    border: 2px solid white
+}
+.BotonesMovimiento {
+    margin-top: 40px;
+}
+@Media (max-width: 670px) {
+    .elementales {
+        flex-direction: column;
+    }
+    .tipoAtaque {
+        display: flex;
+        flex-direction: column;
+    }
+    .ataque-fuego {
+        margin: 4px 0px 4px 0px;
+        flex-direction: column;
+    }
+    .ataque-agua {
+        margin: 4px 0px 4px 0px;
+        flex-direction: column;
+    }
+    .ataque-planta {
+        margin: 4px 0px 4px 0px;
+        flex-direction: column;
+    }
+}
